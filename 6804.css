@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+div {
+  margin: 200px auto;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  transform-origin: 0 50%;
+  transform: rotate(45deg);
+}
+* {
+  box-sizing: border-box;
+}
+ .flag{
+  width: 300px;
+  height: 300px;
+  box-sizing: content-box;
+  padding-top: 15px;
+  margin: 350px;
+  position:relative;
+  top:-200px; left:220px;
+  rotate:135deg;
+  background: lightslategrey;
+  text-align: left;
+  color: white;
+  font-size: 17px;
+  text-align: end;
+  font-weight:normal;
+  font-family:arial,helvetica,sans-serif;
+}
+.flag:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom:0;
+  width: 0;
+  height: 0;
+  border-bottom: 160px solid #fff;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+
+}
+</style>
+</head>
+<body>
+ <div></div>
+ <div class="flag">Elzero</div>
+</body>
+</html>
